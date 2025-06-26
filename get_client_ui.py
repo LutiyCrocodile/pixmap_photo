@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'C:\Users\Maks\PycharmProjects\PythonProject3\GUI.ui'
+# Form implementation generated from reading ui file 'C:\Users\Maks\PycharmProjects\PythonProject3\get_client_ui.ui'
 #
 # Created by: PyQt6 UI code generator 6.9.0
 #
@@ -9,10 +9,12 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class Ui_Form(object):
+class ClientUi(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
-        Form.resize(800, 600)
+        Form.resize(587, 464)
+
+
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
@@ -21,11 +23,12 @@ class Ui_Form(object):
         Form.setWindowTitle(_translate("Form", "Form"))
 
 
+
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     Form = QtWidgets.QWidget()
-    ui = Ui_Form()
+    ui = ClientUi()
     ui.setupUi(Form)
     Form.show()
     sys.exit(app.exec())
